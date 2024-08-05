@@ -1,0 +1,175 @@
+/*plantilla del encabezado*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+}
+
+body,
+html {
+    height: 100%;
+
+}
+
+/*parte del encabezado*/
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1px;
+
+}
+
+.navbar navbar-expand-lg bg-body-tertiary {
+    background-color: rgba(76, 188, 239, 0.9);
+
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-toggle {
+    margin-right: 55px;
+}
+
+.navbar-nav .nav-link:last-child,
+.navbar-nav .dropdown-toggle:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 992px) {
+
+    .navbar-nav .nav-link,
+    .navbar-nav .dropdown-toggle {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.navbar-nav a {
+    font-size: 25px;
+    color: rgb(24, 71, 113);
+    font-family: archivo black;
+}
+
+.navbar-nav a :hover {
+    background-color: aqua;
+
+}
+
+.navbar-brand img {
+    width: 120px;
+    height: 120px;
+    border: 5px;
+    border-radius: 50%;
+
+}
+
+.contendor_menu .navbar-brand img {
+    margin-left: auto;
+}
+
+.contendor_menu .navbar-nav {
+    margin-left: auto;
+}
+
+.dropdown-menu a {
+    font-family: archivo black;
+    font-style: normal;
+    font-size: 25px;
+
+}
+
+.dropdown-menu a :hover {
+    color: aqua;
+}
+
+.contendor_menu .navbar-nav .nav-link {
+    font-size: 20px;
+    margin-right: 100px;
+    font-family: archivo black;
+    font-style: normal;
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(245, 237, 237);
+    color: rgb(24, 25, 26);
+}
+
+.footer {
+    color: rgb(46, 47, 48);
+    text-align: left;
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #f39c12;
+}
+
+.social-icon.facebook:hover {
+    color: #3b5998;
+}
+
+.social-icon.twitter:hover {
+    color: #1da1f2;
+}
+
+.social-icon.instagram:hover {
+    color: #e4405f;
+}
+
+.social-icon.linkedin:hover {
+    color: #0077b5;
+}
+
+/* Font Awesome Styles */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
